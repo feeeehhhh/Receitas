@@ -1,11 +1,4 @@
 @import './global.css';
-
-main{
-    background-color: rgb(238, 172, 183);
-}
-a{
-    text-decoration: none;
-}
 .receitas
 , .receitas2
 , .receitas3{
