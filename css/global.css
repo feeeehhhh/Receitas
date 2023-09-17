@@ -2,11 +2,8 @@ body{
     margin: none;
     padding: none;
     font-family:"Fira Sans", sans-serif , Arial;
-    height: 100vh;
-    width: 100vw;
-}
-a {
-    text-decoration: none;
+    background-color: #fff0f5;
+    position: relative;
 }
 
 ul, li, h1, h2, h3,p{
@@ -44,12 +41,11 @@ header nav {
     background-color: #D05581;
 }
 
-
-
-
-
-
 footer{
     background-color: #533232;
     color: #2f2222;
 }
+ a:hover{
+    color: #7c2242 ;
+    text-decoration: none;
+ }

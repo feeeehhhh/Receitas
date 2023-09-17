@@ -1,9 +1,6 @@
 @import "./global.css";
 
-body {
-    background-color: #fff0f5;
-    ;
-}
+
 
 form {
     display: grid;
@@ -37,5 +34,12 @@ form {
     margin-left: 106px;
     height: 35px;
     margin-top: 30px;
+}
+
+.h1 h1{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 995px;
+    font-size: 80px;
 }
 
