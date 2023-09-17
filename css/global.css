@@ -3,7 +3,7 @@ body{
     padding: none;
     font-family:"Fira Sans", sans-serif , Arial;
     background-color: #fff0f5;
-    position: relative;
+    /* position: relative; */
 }
 
 ul, li, h1, h2, h3,p{
@@ -26,10 +26,11 @@ nav a{
     font-size: 1.4rem;
 }
 footer{
+    text-align: center;
     background-color: #533232;
     color: #2f2222;
     font-size: 1.3rem;
-    padding:3px;
+    padding: 10px;
 }
 main {
     padding: none;
@@ -41,10 +42,6 @@ header nav {
     background-color: #D05581;
 }
 
-footer{
-    background-color: #533232;
-    color: #2f2222;
-}
  a:hover{
     color: #7c2242 ;
     text-decoration: none;

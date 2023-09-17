@@ -1,4 +1,5 @@
 @import './global.css';
+
 .receitas
 , .receitas2
 , .receitas3{
@@ -8,7 +9,6 @@
 .con-main{
     gap: 30px;
     padding: 17px 60px;
-
 }
 img{
     width: 200px;
