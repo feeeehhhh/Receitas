@@ -1,17 +1,22 @@
 @import './global.css';
 
+body{
+   height: 100%;
+}
 .receitas,
 .receitas2,
 .receitas3 {
     background-color: #eb9ab7;
     border-radius: 20px;
-    height: 700px;
+    height: auto;
+    
     
 }
 
 .con-main {
     gap: 30px;
     padding: 17px 60px;
+
 }
 
 img {
@@ -20,12 +25,7 @@ img {
     border-radius: 20px;
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+
 p{
     font-size: 20px;
     padding: 0 5px;
@@ -34,4 +34,7 @@ main ul{
     list-style: circle;
     font-size: 14px;
     padding: 10px 15px;
+}
+footer{
+    position: relative;
 }

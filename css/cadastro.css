@@ -37,12 +37,37 @@ form {
 }
 
 .h1 h1{
-    position: absolute;
-    margin-top: -700px;
-    margin-left: 995px;
+
     font-size: 80px;
+    
 }
+footer{position: relative;}
 
-footer{
+@media (max-width: 900px ){
 
+     main{
+        display:flex;
+        flex-direction: column-reverse;
     }
+    
+    .h1 h1{
+        padding-top:  10px;
+        font-size: 40px;
+        text-align: center;
+    } 
+}
+@media (max-width: 600px) {
+
+    form{
+        width: auto;
+        padding: auto;
+    }
+    input{
+        width: 100%;
+    }
+    form .enviar{
+        width: 200px;
+        
+    }
+
+}
