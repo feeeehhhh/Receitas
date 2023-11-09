@@ -6,13 +6,18 @@ body{
 .receitas,
 .receitas2,
 .receitas3 {
-    background-color: #eb9ab7;
+    background-color: white;
     border-radius: 20px;
-    height: auto;
-    
-    
+    height: 100%;
+    border: 1px rgb(170, 170, 170) solid;
+    padding: 20px;
 }
 
+.receitas:hover,
+.receitas2:hover,
+.receitas3:hover{
+    border: 1px #fc3fb0 solid;
+}
 .con-main {
     gap: 30px;
     padding: 17px 60px;
@@ -20,8 +25,8 @@ body{
 }
 
 img {
-    width: 200px;
-    height: 190px;
+    width:100%;
+  
     border-radius: 20px;
 }
 
